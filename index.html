@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="./assets/Style/index.css" rel="stylesheet" type="text/css">
+    <title>Olga's learning and working progress</title>
+</head>
+
+<body>
+    <main>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="converter-tab" data-bs-toggle="tab"
+                    data-bs-target="#converter-tab-pane" type="button" role="tab" aria-controls="converter-tab-pane"
+                    aria-selected="true">
+                    Olga's converter
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="weather-tab" data-bs-toggle="tab" data-bs-target="#weather-tab-pane"
+                    type="button" role="tab" aria-controls="weather-tab-pane" aria-selected="false">
+                    Olga's weather reporter
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="harry-potter-tab" data-bs-toggle="tab"
+                    data-bs-target="#harry-potter-tab-pane" type="button" role="tab"
+                    aria-controls="harry-potter-tab-pane" aria-selected="false">
+                    Olga's Harry Potter Project
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="portfolio-tab" data-bs-toggle="tab" data-bs-target="#portfolio-tab-pane"
+                    type="button" role="tab" aria-controls="portfolio-tab-pane" aria-selected="false">
+                    Olga's Personal portfolio
+                </button>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade active show ms-3" id="converter-tab-pane" role="tabpanel"
+                aria-labelledby="converter-tab" tabindex="0">
+                <div class="progressbar-container d-flex align-items-center">
+                    <label class="title">Project progress:</label>
+                    <div class="progress" role="progressbar" aria-label="converter-progress" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100" style="height: 30px; width: 75%;">
+                        <div class="progress-bar" style="width: 0%;" id="converter-progress-bar">0%</div>
+                    </div>
+                </div>
+
+                <div class="description-content-container w-50">
+                    <label class="title">Project description:</label>
+                    <div>
+                        <label class="subtitle">What is Olga's converter:</label>
+                        This is a simple web application where user can convert different type of units like: weight(lb,
+                        kg, t), length(ft, m, yd), temperature(C, K, F) and currency(Euro, US dollar and Chinese
+                        Yan).<br />
+                        You can input any numeric values from one of the mentioned units and converted into another
+                        desi`red unit by clicking the CONVERT button. <br />
+                        Any non-numeric input will not be be allowed and an error message will be displayed in order to
+                        inform the user to enter a correct input. <br />
+                        This project has a kawaii design priciple, we give the user a cute cat user
+                        experience.<br /><br />
+
+                        <labe class="subtitle">What I have learnt from Olga's converter:</labe>
+                        This is small size project where I am focusing on putting all my frontend skills into one single
+                        piece, which means, I put the HTML, CSS and Javascript into one single project.
+                        During the development of this project, I learnt how to use git to control the version of each
+                        development.
+                    </div>
+                </div>
+
+                <div class="skill-check-list-container">
+                    <label class="title">My learning and working checklist:</label>
+                    <ul class="editable-list" id="skill-check-list">
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="git">
+                                <label class="form-check-label" for="git">
+                                    Basic understanding of Git and GitHub
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="npm">
+                                <label class="form-check-label" for="npm">
+                                    Basic understanding of npm
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="npmdependency">
+                                <label class="form-check-label" for="npmdependency">
+                                    Installing a dependency from npm
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="import">
+                                <label class="form-check-label" for="import">
+                                    How to import JS files into the HTML
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="naming-convention-pattern">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    What are the common naming convention partterns
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="project-structure">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    What's the basic web project structure
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="DOM">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    What is DOM and how its represented in Javascript
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="DOM-manipulation">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    How to modify DOM using Javascript
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="events">
+                                <label class="form-check-label" for="events">
+                                    What are events and how to handle them
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="MDN">
+                                <label class="form-check-label" for="MDN">
+                                    Where to find the trustworhy documentation and how to read them
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="weight-convertion">
+                                <label class="form-check-label" for="weightConvertion">
+                                    Added the weight convertion logic into the project
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="import-export">
+                                <label class="form-check-label" for="import-export">
+                                    How to import and export function from one JS file to another JS file
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="length-convertion">
+                                <label class="form-check-label" for="lengthConvertion">
+                                    Added the length convertion logic into the project
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="temperature-convertion">
+                                <label class="form-check-label" for="temperature-convertion">
+                                    Added the temperature convertion logic into the project
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="validation-logic">
+                                <label class="form-check-label" for="validation-logic">
+                                    Added validation logic into the project
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="development-flow">
+                                <label class="form-check-label" for="development-flow">
+                                    Understanding what is the development process from the start to the end
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="project-management">
+                                <label class="form-check-label" for="project-management">
+                                    Understanding the basic concept how to manage the project, using board and tickets
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="JS-async">
+                                <label class="form-check-label" for="JS-asynct">
+                                    What is asynchronous operation in Javascript
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="JS-promise">
+                                <label class="form-check-label" for="JS-promise">
+                                    What is a Promise in Javascript and how to create it
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="JS-promise-then">
+                                <label class="form-check-label" for="JS-asynct">
+                                    How to handle promise using the .then() approach
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="JS-promise-async-await">
+                                <label class="form-check-label" for="JS-promise-async-await">
+                                    How to handle promise using the async/await approach
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="rest-API">
+                                <label class="form-check-label" for="rest-API">
+                                    Basic understanding of REST API
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="fetch">
+                                <label class="form-check-label" for="fetch">
+                                    Basic understanding of fetch API
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="JSON">
+                                <label class="form-check-label" for="JSON">
+                                    Basic understanding of JSON
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="JSON-jsObject">
+                                <label class="form-check-label" for="JSON-jsObject">
+                                    Difference between JSON and JS object
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="API-request">
+                                <label class="form-check-label" for="API-request">
+                                    Add API request code into the project
+                                </label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="weather-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            <div>Under construction</div>
+        </div>
+        <div class="tab-pane fade" id="harry-potter-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+            tabindex="0">
+            <div>Under construction</div>
+        </div>
+        <div class="tab-pane fade" id="portfolio-tab-pane" role="tabpanel" aria-labelledby="portfolio-tab" tabindex="0">
+            <div>Under construction</div>
+        </div>
+        </div>
+    </main>
+</body>
+<script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./assets/JS/index.js"></script>
+
+</html>

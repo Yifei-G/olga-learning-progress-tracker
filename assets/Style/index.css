@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Edu_TAS';
+    src: url('../Fonts/Edu_TAS_Beginner/EduTASBeginner-VariableFont_wght.ttf');
+}
+body {
+    font-family: 'Edu_TAS', sans-serif;
+    font-size: 20px;
+
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 15px 40px 15px 0;
+}
+
+.subtitle {
+    display: block;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.editable-list {
+    padding: 0;
+    list-style: none;
+}
